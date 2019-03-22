@@ -1,0 +1,24 @@
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.box1 { background: #07a0c3; }
+.box2 { background: #fff1d0; }
+.box3 { background: #ffab05; }
+.box4 { background: #dd1c1a; }
+.box5 { background: #086788; }
+.box6 { background: #07a0c3; }
+.box7 { background: #fff1d0; }
+.box8 { background: #ffab05; }
+.box9 { background: #dd1c1a; }
+.box10 { background: #086788; }
+
+.container {
+    display: flex; 
+    border: 10px solid aliceblue;
+    height: 100vh;
+}
