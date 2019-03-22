@@ -20,5 +20,6 @@
 .container {
     display: flex; 
     border: 10px solid aliceblue;
-    height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
 }
