@@ -21,5 +21,10 @@
     display: flex; 
     border: 10px solid aliceblue;
     min-height: 100vh;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33.3333333%;
+    border: 10px solid aliceblue;
 }
