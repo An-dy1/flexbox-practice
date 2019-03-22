@@ -24,3 +24,11 @@
     - specified on flex container not flex item
     ![flexwrap](images/flexwrap.png)
     - padding and border are part of the box model whereas margin is not (need to learn more here)
+
+4. Flexbox ordering
+
+    - allows you to move DOM elements order without affecting the DOM
+    - default: `order: 0`
+        - if you set the order to anything greater than 0, it pops on the end
+    - kind of like z-index; no order
+    - if you highlight in the page, the flex items go in order, so don't use if text is going to be copied in the box
