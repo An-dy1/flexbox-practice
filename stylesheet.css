@@ -18,17 +18,7 @@
 .box10 { background: #086788; }
 
 .container {
+    border: solid 5px aqua;
     display: flex;
-}
-
-.box {
-    flex: 1;
-}
-
-.box3 {
-    order: 1;
-}
-
-.box7 {
-    order: -1;
+    justify-content: space-around;
 }

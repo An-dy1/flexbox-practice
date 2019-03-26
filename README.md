@@ -32,3 +32,14 @@
         - if you set the order to anything greater than 0, it pops on the end
     - kind of like z-index; no order
     - if you highlight in the page, the flex items go in order, so don't use if text is going to be copied in the box
+
+5. Justify Content
+
+    - justify-content: how are items aligned along the main axis?
+    - `justify-content: flex-start` is default
+    ![flex-start](/images/justify-flex-start.png)
+    - `justify-content: center`
+    ![justify-center](/images/justify-center.png)
+    - `justify-content: space-between`
+    ![space-between](/images/space-between.png)
+    - `justify-content: space-around` gives you space on the right and left as well
